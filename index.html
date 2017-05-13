@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1.2.9 Exercise</title>
+    <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>NYT Search</h1>
+    </header>
+    <div id="wrapper">
+        <div id="container">
+            <div id="search">
+                <form>
+                    Search:
+                    <br>
+                    <input id="searchTerm" type="text" name="Search">
+                    <br> Number of Results
+                    <input id="results" type="text" name="Hits"> Begin Year
+                    <input id="beginYear" type="text" name=""> End Year
+                    <input id="endYear" type="text" name="">
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="submit" value="Clear Search">
+                </form>
+            </div>
+            <div class="results-row">
+                <h2>Results</h2>
+                <div class="results-column">
+                    <div class="results-row">
+                        <!-- <div class="img-column">
+                            <img src="http://placehold.it/200x150">
+                        </div> -->
+                        <div class="info-column">
+                            <div id="publish-date">Published Date | Section</div>
+                            <br>
+                            <div id="byline">Byline</div>
+                            <br>
+                            <div id="snippet">Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus repellat tempora dicta culpa sapiente repudiandae blanditiis deserunt quidem rem quam at nostrum laboriosam, cupiditate maiores. Odio iusto libero obcaecati possimus.</div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- Script -->
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
